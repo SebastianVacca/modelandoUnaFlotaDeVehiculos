@@ -23,14 +23,14 @@ public class Vehiculo {
 
     public void mostrarInfo(){
         System.out.printf("""
-                == Información del vehiculo ==%n
-                Marca: %s%n
-                Modelo: %s%n
-                Año: %d%n
+                == Información del vehiculo ==
+                Marca: %s
+                Modelo: %s
+                Año: %d
                 """, getMarca(), getModelo(), getAnio());
     }
 
     public void mover(){
-        System.out.println("El vehículo se está moviendo.");
+        System.out.println("El vehículo se está moviendo.\n");
     }
 }

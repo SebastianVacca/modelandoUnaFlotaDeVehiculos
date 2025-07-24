@@ -12,12 +12,12 @@ public class Camion extends Vehiculo{
 
     @Override
     public void mover() {
-        System.out.println("El camión está cargado y se está moviendo");
+        System.out.println("El camión está cargado y se está moviendo\n");
     }
 
     @Override
     public void mostrarInfo() {
         super.mostrarInfo();
-        System.out.printf("Capacidad: %.1f%n", this.getCapacidadCarga());
+        System.out.printf("Capacidad: %,.0f%n", this.getCapacidadCarga());
     }
 }
